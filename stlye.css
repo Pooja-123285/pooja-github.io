@@ -1,0 +1,48 @@
+body, html{
+	width: 100%;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	background: url(https://images.unsplash.com/photo-1662734724939-962430945ca3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	color: limegreen;
+	font-size: 3rem;
+	
+}
+
+hr {
+	border-color: orangered;
+	border-width: 3px;
+	max-width: 60px;
+
+}
+.buffer{
+	height: 50px;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary{
+	background-color: orangered;
+	border-color: orangered;
+}
+
+.btn-primary:hover{
+	background-color: orangered;
+	border-color: orangered;
+	border-width: 4px;
+}
+
+.btn-xl{
+	padding: 1em 2rem;
+	
+}
